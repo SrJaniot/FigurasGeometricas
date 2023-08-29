@@ -41,18 +41,8 @@ public class clsFiguras {
     }
     
     
-    public float obtenerArea (){
-        float area =0;
-        
-        return area;
-    }
-    
-    
-    public float obtenerPerimetro (){
-        float perimetro =0;
-        
-        return perimetro;
-    }
+  public abstract double calcularArea();
+  public abstract double calcularPerimetro();
     
     
 }
