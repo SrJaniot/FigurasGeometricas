@@ -41,8 +41,8 @@ public abstract  class clsFiguras {
     }
     
     
-  public abstract double obtenerArea();
-  public abstract double obtenerPerimetro();
+  public abstract float obtenerArea();
+  public abstract float obtenerPerimetro();
     
     
 }
