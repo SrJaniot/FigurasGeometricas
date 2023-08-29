@@ -12,5 +12,7 @@ La anotación @Override es utilizada en el proyecto para indicar que un método 
 En resumen, el proyecto "FigurasGeometricas" es un excelente ejemplo de cómo aplicar los conceptos de herencia, polimorfismo y la anotación @Override en la programación orientada a objetos. A través de la construcción de una jerarquía de figuras geométricas y la implementación de métodos especializados en las subclases, se logra una estructura flexible y modular que promueve la reutilización de código y la gestión eficiente de diferentes tipos de figuras.
 
 
+# Clase abstracta:
+Una clase abstracta es una clase que no se puede instanciar directamente, es decir, no se pueden crear objetos de esa clase en sí misma. En lugar de eso, se utiliza como una base para definir otras clases que heredan de ella. Una clase abstracta puede tener métodos abstractos (métodos declarados pero no implementados) y métodos concretos (métodos implementados). La idea detrás de una clase abstracta es proporcionar una estructura común y definir ciertas características y comportamientos que deben ser compartidos por sus subclases.
 
 
