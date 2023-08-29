@@ -12,20 +12,18 @@ public class clsCuadrado extends clsRectangulo{
     
     private float lado;
 
-    public clsCuadrado(float lado, float x, float y) {
-        super(x, y);
+    public clsCuadrado(float lado, float base, float altura, float x, float y) {
+        super(base, altura, x, y);
+        this.lado = lado;
+    }
+
+    public clsCuadrado(float lado, float base, float altura) {
+        super(base, altura);
         this.lado = lado;
     }
 
     public clsCuadrado(float lado) {
         this.lado = lado;
-    }
-
-   
-
-    public clsCuadrado() {
-        
-        
     }
     
     
