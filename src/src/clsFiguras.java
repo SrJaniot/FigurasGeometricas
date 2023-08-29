@@ -9,7 +9,7 @@ package src;
  *
  * @author CENTIC
  */
-public class clsFiguras {
+public abstract  class clsFiguras {
     private float x;
     private float y;
 
